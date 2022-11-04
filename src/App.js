@@ -1,10 +1,13 @@
 import './App.css'
-import HomePage from './Homepage.component'
+import Directory from './components/directory/directory.component'
+import HomePage from './pages/homepage/Homepage.component'
 
 function App() {
   return (
     <div>
-      <HomePage />
+      <HomePage>
+        <Directory />
+      </HomePage>
     </div>
   )
 }
